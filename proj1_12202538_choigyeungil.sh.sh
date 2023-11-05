@@ -75,13 +75,13 @@ do
 	elif [ $choice = "7" ];then
 		echo
 		read -p "Please enter the 'user id' (1~943): " userId
-		
+
 		echo
 	elif [ $choice = "8" ];then
 		echo
 		read -p "Do you want to get the average 'rating' of movies rated by users with 'age' between 20 and 29 and 'occupation' as 'programmer'?(y/n) : " yesNo
 		if [ $yesNo = "y" ];then
-			echo "wait"	
+			echo 	
 		fi
 		echo
 
